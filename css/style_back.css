@@ -1,0 +1,61 @@
+
+input[type="text"], input[type="password"], input[type="number"], input[type="file"], input[type="date"], select {
+    margin: 4px 0;
+    display: inline-block;
+    height:20px;
+}
+input[type=submit]
+{
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 8px;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+    height: 25px;
+    border-radius: 35%;
+}
+
+.fs
+{
+    border: 3px solid #4CAF50;
+    margin:50px auto;
+    width:70%;
+}
+.lg
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #4CAF50;
+    margin-left: 10px;
+    border-bottom: 0;
+    font:inherit;
+}
+.tb, .tb td, th
+{
+    margin: 40px auto;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+th
+{
+    background-color: #4CAF50;
+    color: #fff;
+}
+.tb td img
+{
+    height: 50px;
+    width: 50px;
+}
+.tb td a
+{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    width:40px;
+}
